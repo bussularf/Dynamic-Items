@@ -32,7 +32,8 @@ Follow the steps below to set up the development environment and run the project
 
 2. Navigate to the project folder:
 
-  `cd dynamic-items`
+   ```bash
+  cd dynamic-items
 
 3. Install the project dependencies:
 
