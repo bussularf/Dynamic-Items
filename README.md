@@ -33,23 +33,16 @@ Follow the steps below to set up the development environment and run the project
 2. Navigate to the project folder:
 
    ```bash
-    cd dynamic-items
+   cd dynamic-items
 
 3. Install the project dependencies:
 
   ```bash
-    npm install
+   npm install
 
 ## Running the Project
 Start the server by running the command:
 
-  ```
-  npm start
-  ```
-The server will start on port 3000 (by default). You can access it in your browser at:
-
-  ```
-  http://localhost:3000
-  ```
-
-On the page, enter a number in the quantity field and click "Update Items" to dynamically generate the item cards.
+  ```bash
+   npm start
+   http://localhost:3000
