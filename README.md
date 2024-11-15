@@ -33,11 +33,12 @@ Follow the steps below to set up the development environment and run the project
 2. Navigate to the project folder:
 
    ```bash
-  cd dynamic-items
+    cd dynamic-items
 
 3. Install the project dependencies:
 
-  `npm install`
+  ```bash
+    npm install
 
 ## Running the Project
 Start the server by running the command:
