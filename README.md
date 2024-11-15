@@ -30,17 +30,13 @@ Follow the steps below to set up the development environment and run the project
    git clone https://github.com/your-username/dynamic-items.git
 
 
-2. Navigate to the project folder:
+2. Navigate to the project folder and install the project dependencies:
 
    ```bash
    cd dynamic-items
+    npm install
 
-3. Install the project dependencies:
-
-  ```bash
-   npm install
-
-4. Running the Project:
+3. Running the Project:
 
    ```bash
     npm start
