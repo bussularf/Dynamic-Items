@@ -34,13 +34,11 @@ Follow the steps below to set up the development environment and run the project
 
    ```
   cd dynamic-items
-  ```
 
 3. Install the project dependencies:
 
    ```
   npm install
-  ```
 
 ## Project Structure
 The project has the following folder structure:
