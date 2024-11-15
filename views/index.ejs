@@ -5,26 +5,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dynamic Items</title>
   <link rel="stylesheet" href="/css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <script>
     async function updateItems() {
-      const quantity = document.getElementById('quantity').value;
-      const response = await fetch(`/generate-items?quantity=${quantity}`);
-      const items = await response.json();
+  const quantity = document.getElementById('quantity').value;
+  const response = await fetch(`/generate-items?quantity=${quantity}`);
+  const items = await response.json();
 
-      const list = document.getElementById('items-list');
-      list.innerHTML = '';
-      items.forEach(item => {
-        const li = document.createElement('li');
-        li.textContent = item;
-        list.appendChild(li);
-      });
-    }
+  const list = document.getElementById('items-list');
+  list.innerHTML = '';
+
+  items.forEach((item, index) => {
+    const card = document.createElement('div');
+    card.className = 'card';
+
+    const title = document.createElement('h2');
+    title.textContent = `Item ${index + 1}`;
+
+    const description = document.createElement('p');
+    description.textContent = `item's Description ${index}`;
+
+    card.appendChild(title);
+    card.appendChild(description);
+    list.appendChild(card);
+  });
+}
   </script>
 </head>
 <body>
-  <h1>Dynamic Item List</h1>
-  <label for="quantity">Quantity:</label>
-  <input type="number" id="quantity" oninput="updateItems()" />
-  <ul id="items-list"></ul>
+  <div class="container">
+    <h1>Dynamic Items</h1>
+    <label for="quantity">Quantity:</label>
+    <input type="number" id="quantity" oninput="updateItems()" min="0"  />
+  </div>
+
+<div id="items-list" class="cards-container"></div>
 </body>
 </html>
