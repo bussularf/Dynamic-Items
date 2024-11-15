@@ -42,3 +42,6 @@ Follow the steps below to set up the development environment and run the project
     npm start
 
 http://localhost:3000
+
+![Imagem 1](./app.png)
+
