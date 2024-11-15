@@ -43,5 +43,7 @@ Follow the steps below to set up the development environment and run the project
 
 http://localhost:3000
 
+- Deploy link: https://go-brunch-ag3w6rk9p-bussularfs-projects.vercel.app/
+
 ![Imagem 1](./app.png)
 
