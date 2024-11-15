@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic Items</title>
+  <script>
+    async function updateItems() {
+      const quantity = document.getElementById('quantity').value;
+      const response = await fetch(`/generate-items?quantity=${quantity}`);
+      const items = await response.json();
+
+      const list = document.getElementById('items-list');
+      list.innerHTML = '';
+      items.forEach(item => {
+        const li = document.createElement('li');
+        li.textContent = item;
+        list.appendChild(li);
+      });
+    }
+  </script>
+</head>
+<body>
+  <h1>Dynamic Item List</h1>
+  <label for="quantity">Quantity:</label>
+  <input type="number" id="quantity" oninput="updateItems()" />
+  <ul id="items-list"></ul>
+</body>
+</html>
