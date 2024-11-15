@@ -104,8 +104,9 @@ body {
   background-color: #0056b3;
 }
 
-.section {
-  padding: 1rem;
+main {
+  flex: 1;
+  padding: 20px;
 }
 
 .footer {

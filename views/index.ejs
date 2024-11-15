@@ -48,17 +48,18 @@
 </head>
 <body>
   <%- include('partials/navbar') %>
-  <div class="container">
-    <h1>Dynamic Items</h1>
-    <div class="quantity-controls">
-      <label for="quantity">Quantity:</label>
-      <button onclick="changeQuantity(1)">+</button>
-      <div id="quantity" class="quantity-display">0</div>
-      <button onclick="changeQuantity(-1)">-</button>
+  <main>
+    <div class="container">
+      <h1>Dynamic Items</h1>
+      <div class="quantity-controls">
+        <label for="quantity">Quantity:</label>
+        <button onclick="changeQuantity(1)">+</button>
+        <div id="quantity" class="quantity-display">0</div>
+        <button onclick="changeQuantity(-1)">-</button>
+      </div>
     </div>
-  </div>
-  <div id="items-list" class="cards-container"></div>
-  <div class="section"></div>
-  <%- include('partials/footer') %>
+    <div id="items-list" class="cards-container"></div>
+  </main>
+    <%- include('partials/footer') %>
 </body>
 </html>
