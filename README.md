@@ -42,6 +42,7 @@ Follow the steps below to set up the development environment and run the project
 
 4. Running the Project:
 
-  ```bash
-   npm start
-   http://localhost:3000
+   ```bash
+    npm start
+
+http://localhost:3000
