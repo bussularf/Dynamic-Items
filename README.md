@@ -40,8 +40,7 @@ Follow the steps below to set up the development environment and run the project
   ```bash
    npm install
 
-## Running the Project
-Start the server by running the command:
+4. Running the Project
 
   ```bash
    npm start
