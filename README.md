@@ -38,25 +38,6 @@ Follow the steps below to set up the development environment and run the project
 
   `npm install`
 
-## Project Structure
-The project has the following folder structure:
-
-   ```
-  dynamic-items/
-  │
-  ├── public/                 # Static files (CSS, images, etc.)
-  ├── views/                  # EJS files for HTML rendering
-  │   ├── index.ejs           # Main page template
-  ├── node_modules/           # Node.js dependencies
-  ├── app.js                  # Main Express server file
-  ├── package.json            # Dependencies and scripts
-  └── README.md               # This file
-  ```
-
-public/: Contains static files like CSS for styling the page.
-views/: Contains EJS templates that will be rendered on the server.
-app.js: The configuration of the Express server.
-
 ## Running the Project
 Start the server by running the command:
 
