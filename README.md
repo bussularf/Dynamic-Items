@@ -26,7 +26,7 @@ Follow the steps below to set up the development environment and run the project
 1. Clone this repository to your machine:
 
    ```bash
-   git clone https://github.com/your-username/dynamic-items.git
+   git clone https://github.com/bussularf/dynamic-items.git
 
 
 2. Navigate to the project folder and install the project dependencies:
