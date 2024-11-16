@@ -1,6 +1,6 @@
 # Dynamic Items Project
 
-This project is a simple web application built with **Node.js**, **Express**, and **EJS**. It allows users to dynamically generate a list of items based on the quantity provided. For each generated item, a card is created and displayed with a title, description, and an image. A loading effect is shown while the images are being loaded.
+This project is a simple web application built with **Node.js**, **Express**, and **EJS**. It allows users to dynamically generate a list of items based on the quantity provided. For each generated item, a card is created and displayed with a title, description, and an image.
 
 ## Features
 
