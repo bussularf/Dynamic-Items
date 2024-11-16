@@ -6,7 +6,6 @@ This project is a simple web application built with **Node.js**, **Express**, an
 
 - Dynamically generate a list of items.
 - Add cards for each item with a title, description, and image.
-- Display a "Loading..." message while the images are being loaded.
 
 ## Technologies Used
 
